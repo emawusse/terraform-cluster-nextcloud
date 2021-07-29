@@ -11,22 +11,26 @@ Ce projet est le déploiement d'une infrastructure dans un environnement opensta
 
 ## Comment utilisé les fichiers ?
 
-Vous devez cloner le projet : git clone https://github.com/enassar225/terraform-cluster-swarm-openstack.git puis creer un fichier terraform.tfvars pour y mettre vos variables lors du déploiement de l'infra.
+Vous devez cloner le projet : git clone https://github.com/enassar-linkedin-projects/nextcloud-cluster-swarm.git puis creer un fichier terraform.tfvars pour y mettre vos variables lors du déploiement de l'infra.
 
 Exemple du fichier terraform.tfvars :
 
 - compute_bastion = { "SRV-BASTION" = "6" }
 - compute_apps = {
   "SRV-APPS-1" = "085d97f4", #Nom du serveur et Id du flavor
+  
   "SRV-APPS-2" = "085d97f4", #Nom du serveur et Id du flavor
+  
   "SRV-APPS-3" = "085d97f4" #Nom du serveur et Id du flavor
 }
 
 - image_id     = "dcdc0e75" #Id de l'image
 - key_name     = "LINKEDIN-KEY"
 - storage = { 
-  "SRV-APPS-1" = "50", #Nom & taille du volume rattache. 
+  "SRV-APPS-1" = "50", #Nom & taille du volume rattache
+  
   "SRV-APPS-2" = "50", #Nom & taille du volume rattache
+  
   "SRV-APPS-3" = "50" #Nom & taille du volume rattache
 }
 
