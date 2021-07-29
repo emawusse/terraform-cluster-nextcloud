@@ -18,8 +18,6 @@ file_storage = {
 #Secgroup
 secgroup_bastion_name = "GROUPE DE SECURITE BASTION"
 secgroup_apps_name    = "GROUPE DE SECURITE APPS"
-secgroup_acronis_name = "GROUPE DE SECURITE ACRONIS"
-
 
 #Network
 network_bastion_name = "NET-BASTION"
