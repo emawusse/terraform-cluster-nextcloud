@@ -18,7 +18,7 @@ Exemple du fichier terraform.tfvars :
 - compute_bastion = { "SRV-BASTION" = "6" }
 - compute_apps = { "SRV-APPS-1" = "085d97f4", "SRV-APPS-2" = "085d97f4", "SRV-APPS-3" = "085d97f4" } #Nom du serveur et Id du flavor
 
-- image_id     = "dcdc0e75" #Id de l'image
+- image_id     = "dcdc0e75"
 - key_name     = "LINKEDIN-KEY"
 - storage = { "SRV-APPS-1" = "50", "SRV-APPS-2" = "50", "SRV-APPS-3" = "50" }  #Nom & taille du volume rattache
 
