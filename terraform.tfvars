@@ -9,7 +9,7 @@ compute_apps = {
 
 image_id     = "dcdc0e75-f494-402e-8d04-33d0f08b5bd0"
 key_name     = "LINKEDIN-KEY"
-file_storage = { 
+storage = { 
   "SRV-APPS-1" = "50",
   "SRV-APPS-2" = "50",
   "SRV-APPS-3" = "50"
