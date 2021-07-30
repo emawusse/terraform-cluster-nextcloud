@@ -2,17 +2,17 @@
 compute_bastion = { "SRV-BASTION" = "id du flavor de votre compute à renseigner" }
 
 compute_apps = {
-  "SRV-APPS-1" = "3",
-  "SRV-APPS-2" = "3",
-  "SRV-APPS-3" = "3"
+  "SRV-APPS-1" = "id du flavor de votre compute à renseigner",
+  "SRV-APPS-2" = "id du flavor de votre compute à renseigner",
+  "SRV-APPS-3" = "id du flavor de votre compute à renseigner"
 }
 
-image_id     = "11b4ac46-74da-4e67-9ebd-5bf22a91d1f8"
+image_id     = "id du flavor de votre image à renseigner"
 key_name     = "POC-KEY"
 storage = { 
-  "SRV-APPS-1" = "20",
-  "SRV-APPS-2" = "20",
-  "SRV-APPS-3" = "20"
+  "SRV-APPS-1" = "taille de votre volume à renseigner",
+  "SRV-APPS-2" = "taille de votre volume à renseigner",
+  "SRV-APPS-3" = "taille de votre volume à renseigner"
 }
 
 #Secgroup
