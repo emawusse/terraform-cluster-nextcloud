@@ -2,17 +2,17 @@
 compute_bastion = { "SRV-BASTION" = "6" }
 
 compute_apps = {
-  "SRV-APPS-1" = "085d97f4-19b3-4b52-b8d8-347e061fe6f0",
-  "SRV-APPS-2" = "085d97f4-19b3-4b52-b8d8-347e061fe6f0",
-  "SRV-APPS-3" = "085d97f4-19b3-4b52-b8d8-347e061fe6f0"
+  "SRV-APPS-1" = "id du flavor de votre compute à renseigner",
+  "SRV-APPS-2" = "id du flavor de votre compute à renseigner",
+  "SRV-APPS-3" = "id du flavor de votre compute à renseigner"
 }
 
-image_id     = "dcdc0e75-f494-402e-8d04-33d0f08b5bd0"
-key_name     = "LINKEDIN-KEY"
+image_id     = "id de votre image",
+key_name     = "nom de votre clé"
 storage = { 
-  "SRV-APPS-1" = "50",
-  "SRV-APPS-2" = "50",
-  "SRV-APPS-3" = "50"
+  "SRV-APPS-1" = "taille de votre volume",
+  "SRV-APPS-2" = "taille de votre volume",
+  "SRV-APPS-3" = "taille de votre volume"
 }
 
 #Secgroup
