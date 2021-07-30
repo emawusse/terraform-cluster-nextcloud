@@ -16,8 +16,7 @@ resource "openstack_compute_instance_v2" "compute_apps" {
   flavor_id = each.value
   key_pair  = openstack_compute_keypair_v2.public_key.name
   security_groups = [
-    "${openstack_compute_secgroup_v2.secgroup_apps.name}",
-    "${openstack_compute_secgroup_v2.secgroup_acronis.name}"
+    "${openstack_compute_secgroup_v2.secgroup_apps.name}"
   ]
   network { name = openstack_networking_network_v2.network_bastion.name }
   network { name = openstack_networking_network_v2.network_apps.name }
