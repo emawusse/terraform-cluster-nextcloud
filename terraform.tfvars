@@ -1,5 +1,5 @@
 #Instances du projet
-compute_bastion = { "SRV-BASTION" = "6" }
+compute_bastion = { "SRV-BASTION" = "id du flavor de votre compute à renseigner" }
 
 compute_apps = {
   "SRV-APPS-1" = "id du flavor de votre compute à renseigner",
