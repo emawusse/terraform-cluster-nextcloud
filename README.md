@@ -1,4 +1,4 @@
-# Terraform-Nextcloud-Cluster-Swarm
+# Terraform-Nextcloud-Cluster
 # Provider Openstack
 
 Ce projet est le déploiement d'une infrastructure dans un environnement openstack. L'architecture est composée d'un 1 noeud bastion et de 3 serveurs d'application formant un cluster swarm. Les noeuds applicatifs comportent également des volumes rattachés (disk) pour faire du pool de stockage si besoin.
